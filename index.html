@@ -44,7 +44,7 @@
 </head>
 <body>
     <h1>Tallmoro</h1>
-    <div class="rødtlloppg">
+    <div class="rødtlloppg"> <!--it's over 9000!-->
         <div id="app"></div>
         <div style="margin-top: 18px;">
             <button onclick="doubleTheNumb()">Make it double</button>
@@ -57,7 +57,7 @@
         </div>
     </div>
     <br/>
-    <div class="blåmood">
+    <div class="blåmood"> <!--blå knapper, velg 16 eller 47-->
         <div id="output"></div><br/>
         <button class="moodoppg" onclick="setNumb(16)">Sett tallet til <b>16</b></button>
         <button class="moodoppg" onclick="setNumb(47)">Sett tallet til <b>47</b></button><br/>
@@ -86,9 +86,10 @@
         <button onclick=
         "document.getElementById('lightbulb').style.backgroundColor='#f09b82'">
             turn on the red light</button><br/>
-        <button onclick="document.getElementById('lightbulb').style.backgroundColor='lightgrey'">turn off the red light</button>
+        <button onclick=
+        "document.getElementById('lightbulb').style.backgroundColor='lightgrey'">
+            turn off the red light</button>
     </div> <!---->
-    <!--It's over 9000-->
     <!--<button onclick="setNumb16()">Set Number to 16</button>
     <button onclick="setNumb47()">Set Number to 47</button>-->
     
@@ -96,23 +97,20 @@
     3 knapper:
     - doble tallet
     - øk tallet med én
-    - reset tallet til 1
-
-    Bla: Hvis summen av regnestykket er over 9000, skal teksten
-    ITS OVER 9000 også vises på skjermen-->
+    - reset tallet til 1-->
 
     <script>
         // originale oppg fra Marius
         const nmmrO = 1; //original verdi
-        let nummer = nmmrO; //originalt skrevet som let nummer=1 br const nmmrO=5, deretter endret rekkefølge sånn at scripten forstår hva jeg ønsker av den
+        let nummer = nmmrO; //originalt skrevet som let nummer=1; const nmmrO=5, deretter endret rekkefølge sånn at scripten forstår hva jeg ønsker av den
         
         // moodle variabler 2 m Marie
         var outputDiv = document.getElementById('output'); //reminder: "var" er GAMMALT
         var numbToShow = 0;
         var start = numbToShow;
-        // end moodle section (@ least for the script)
+        // end moodle section (@least for the script)
 
-        //third
+        //third begin
         const nyumeroo = 1;
         let tall = nyumeroo;
         //third end
