@@ -1,0 +1,30 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0; margin: 0;
+    font-size: 1.2rem;
+}
+body{
+    background-color: bisque;
+    height: 100vi;
+    background-image: linear-gradient(#fff9e6, bisque);
+    padding: 60px;
+    margin: auto;
+    text-align: center;
+}
+h1 { font-size: 4rem; font-family: "Bubblegum Sans";}
+h3 {
+    font-family: "patrick hand"; font-weight: 100; font-size: 1.5rem;
+    color: purple;
+} body > div > div > h3:nth-child(3){color: #7e49c4;}
+
+.tvGlow{
+    background-color: grey;
+    margin: 30px auto;
+    width: 68%;
+    height: 30px;
+}
+.note {
+    text-align: left;
+    margin: auto;
+    width: 60%;
+}
