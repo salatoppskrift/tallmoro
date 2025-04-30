@@ -12,8 +12,9 @@ TopCntnt.innerHTML = `
     <h3>(it's gonna be may)</h3>
 `;
 tvDiv.innerHTML = `
-    <div class="tvGlow">
-    </div>
+    <video class="tvGlow" controls>
+        <source src="Keiko_Basket_1.mp4" type="video/mp4">
+    </video>
 `;
 notesies.innerHTML = `
     To-do list:
@@ -50,6 +51,3 @@ document.getElementById("app").appendChild(notesies);
 const getTVScreen = document.getElementById("app").getElementsByClassName("tv")[0].getElementsByClassName("tvGlow")[0];
 
 // MANIPULATION: actual manipulation
-
-getTVScreen.style.height = "100px";
-getTVScreen.innerHTML = getTVScreen.offsetHeight;
